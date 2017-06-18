@@ -1,0 +1,23 @@
+﻿[SwitchyOmega Conditions]
+; Require: SwitchyOmega >= 2.3.2
+; Date: 2017-6-18
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+UrlWildcard: *://sub.localhost.com/*
+UrlWildcard: *://localhost.com/*
+*.ytimg.com
+*.youtube.com
+UrlWildcard: *google*
+UrlWildcard: *tumblr*
+UrlWildcard: *youtube*
+UrlWildcard: *fbcdn.net*
+UrlWildcard: *facebook*
+UrlWildcard: *messenger.com*
+UrlWildcard: *glgnltks.xyz*
+UrlWildcard: *angularjs.org*
+UrlWildcard: *npmjs.com/
+UrlWildcard: *gist.github.com/*
+UrlRegex: ^http:\/\/localhost\.com:3000.*
+*wikipedia.org*
+*twitter.com*
+*html5rocks.com/*
